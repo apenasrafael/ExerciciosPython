@@ -12,24 +12,23 @@ apresente na última linha uma mensagem "Media final: " seguido da média final 
 '''
 
 
-r = [float(x) for x in input().split()]
-media = round(((r[0]*2 + r[1]*3 + r[2]*4 + r[3]) / 10), 1)
+n1, n2, n3, n4 = [float(x) for x in input().split()]
+media = round(((n1*2 + n2*3 + n3*4 + n4) / 10), 1)
 
 if 5 <= media <= 6.9:
     exame = float(input())
-    print('Media: ' + str(media))
+    print(f'Media: {media}')
     print('Aluno em exame.')
-    print('Nota do exame: ' + str(exame))
+    print(f'Nota do exame: {exame}')
     nota_final = (media + exame) / 2
     if nota_final >= 5:
         print('Aluno aprovado.')
     else:
         print('Aluno reprovado.')
-    print('Media final: ' + str(nota_final))
+    print(f'Media final: {nota_final}')
     
 else:
-    print('Media: ' + str(media))
-    
+    print(f'Media: {media}')    
     if media < 5:
         print('Aluno reprovado.')
     else:
