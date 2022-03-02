@@ -6,10 +6,10 @@ Aqui estão alguns desafios resolvidos com a linguagem Python.
 
 O objetivo foi estudar e aprender mais sobre Python com desafios do site [Beecrowd](https://www.beecrowd.com.br/judge/pt) (antigo URI Online Judge)  
 Entre os exercícios resolvidos, acredito que os mais interessantes foram os seguintes:  
-* Sudoku (1383)
-* Notas e Moedas (1021)
-* Concurso de Contos (1222)
-* Criptografia (1024)
+* [Sudoku](https://github.com/apenasrafael/ExerciciosPython/blob/main/1383_Sudoku.py)
+* [Notas e Moedas](https://github.com/apenasrafael/ExerciciosPython/blob/main/1021_Notas_e_Moedas.py)
+* [Concurso de Contos](https://github.com/apenasrafael/ExerciciosPython/blob/main/1222_Concurso_de_Contos.py)
+* [Criptografia](https://github.com/apenasrafael/ExerciciosPython/blob/main/1024_Criptografia.py)
 * Validador de Senhas (2253)
 * Lendo Livros (1542)
 * Revisão de Contrato (1120)
