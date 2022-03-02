@@ -10,29 +10,29 @@ Que tal fazermos um algoritmo que produz essa lista de nomes?
 
 x = int(input())
 nomes = list()
-dic = {}
+dicionario = {}
 nomes_agrupados = list()
 
 for i in range(x):
-  nomes.append(input())
+    nomes.append(input())
 
 for nome in nomes:
-  if len(nome) not in dic.keys():
-    dic[len(nome)] = 1
-  else:
-    dic[len(nome)] += 1
+    if len(nome) not in dicionario.keys():
+        dicionario[len(nome)] = 1
+    else:
+        dicionario[len(nome)] += 1
 
-for item in sorted(dic.keys()):
-  nomes_agrupados.append(list(filter(lambda nome: len(nome) == item, nomes)))
+for item in sorted(dicionario.keys()):
+    nomes_agrupados.append(list(filter(lambda nome: len(nome) == item, nomes)))
 
 aux = ''
 cont = 0
 while cont < len(nomes):
-  for grupo in nomes_agrupados:
-    if len(grupo) > 0:
-      aux += grupo[0] + ', '
-      grupo.remove(grupo[0])
-      cont += 1
+    for grupo in nomes_agrupados:
+        if len(grupo) > 0:
+            aux += grupo[0] + ', '
+            grupo.remove(grupo[0])
+            cont += 1
 
-  print(aux[:len(aux)-2])
-  aux = ''
+    print(aux[:len(aux)-2])
+    aux = ''
