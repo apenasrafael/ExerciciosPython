@@ -1,11 +1,10 @@
 # Soluções de problemas utilizando Python
 
-Olá, pessoal! :D  
-Aqui estão alguns exercícios resolvidos com a linguagem Python.  
-Meu objetivo foi estudar e aprender mais sobre a linguagem de um modo divertido.  
-Recomendo fortemente que você também tente resolver do seu modo.  
-A maioria dos exercícios foi realizada na versão 3.8.2 do Python. Alguns exercícios mais antigos foram realizados na versão 3.4.3.  
-As versões do Python (e de outras dezenas de linguagens) são fornecidas pelo site [Beecrowd](https://www.beecrowd.com.br/judge/pt) (antigo URI Online Judge)  
+Olá!
+
+Aqui estão alguns desafios resolvidos com a linguagem Python.  
+
+O objetivo foi estudar e aprender mais sobre Python com desafios do site [Beecrowd](https://www.beecrowd.com.br/judge/pt) (antigo URI Online Judge)  
 Entre os exercícios resolvidos, acredito que os mais interessantes foram os seguintes:  
 * Sudoku (1383)
 * Notas e Moedas (1021)
