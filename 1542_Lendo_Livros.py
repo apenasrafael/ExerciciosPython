@@ -16,4 +16,4 @@ while True:
     if x < 2:
         print('1 pagina')
     else:
-        print(f'{int(x):.0f} paginas')
+        print(f'{int(x)} paginas')
