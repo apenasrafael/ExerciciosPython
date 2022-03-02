@@ -9,6 +9,8 @@ Além disso, a senha pode ter de 6 a 32 caracteres.
 '''
 
 from string import ascii_uppercase, ascii_letters
+
+
 while True:
     try:
         senha = input()
