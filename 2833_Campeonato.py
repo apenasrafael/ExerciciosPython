@@ -19,14 +19,14 @@ eles vão se enfrentar na semifinal.
 
 '''
 
-dic = {3: 'oitavas', 2: 'quartas', 1: 'semifinal', 0: 'final'}
+dicionario = {3: 'oitavas', 2: 'quartas', 1: 'semifinal', 0: 'final'}
 
 aux = [int(x) for x in input().split()]
 
 for i in range(4):
     limite = len(aux) // 2
     if (1 in aux[:limite] and 9 in aux[limite:]) or (9 in aux[:limite] and 1 in aux[limite:]):
-        print(dic[i])
+        print(dicionario[i])
         break
     else:
         if 1 in aux[:limite]:
