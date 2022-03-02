@@ -20,8 +20,7 @@ while True:
     aux = input().split()
     if aux == ['0', '0', '0', '0']:
         break
-    aux = [int(x) for x in aux]
-    h1, m1, h2, m2 = aux[0], aux[1], aux[2], aux[3]
+    h1, m1, h2, m2 = [int(x) for x in aux]
     fmt = '%Y-%m-%d %H:%M:%S'
 
     day = '02' if h2 < h1 else '01'
