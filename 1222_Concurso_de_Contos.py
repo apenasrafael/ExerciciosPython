@@ -13,23 +13,20 @@ utilizaria seguindo as regras do concurso.
 from math import ceil
 
 while True:
-  try:
-    entrada = input().split()
-    num_de_palavras = int(entrada[0])
-    num_max_linhas_por_pagina = int(entrada[1])
-    num_max_caracteres_por_linha = int(entrada[2])
-    total_linhas = 1
-    texto = input().split()
-    aux = texto[0]
+    try:
+        num_de_palavras, num_max_linhas_por_pagina, num_max_caracteres_por_linha = [int(x) for x in input().split()]
+        total_linhas = 1
+        texto = input().split()
+        aux = texto[0]
 
-    for i in range(1, len(texto)):
-      if num_max_caracteres_por_linha >= len(aux + ' ' + texto[i]):
-        aux += ' ' + texto[i]
-      else:
-        total_linhas += 1
-        aux = texto[i]
+        for i in range(1, len(texto)):
+            if num_max_caracteres_por_linha >= len(aux + ' ' + texto[i]):
+                aux += ' ' + texto[i]
+            else:
+                total_linhas += 1
+                aux = texto[i]
 
-    print(ceil(total_linhas / num_max_linhas_por_pagina))
+        print(ceil(total_linhas / num_max_linhas_por_pagina))
 
-  except EOFError:
-    break
+    except EOFError:
+        break
