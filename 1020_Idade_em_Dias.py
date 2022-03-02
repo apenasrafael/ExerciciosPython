@@ -12,6 +12,7 @@ ano = a // 365
 a = a % 365
 mes = a // 30
 dia = a % 30
-print("%d ano(s)" % ano)
-print("%d mes(es)" % mes)
-print("%d dia(s)" % dia)
+
+print(f'{ano} ano(s)')
+print(f'{mes} mes(es)')
+print(f'{dia} dia(s)')
