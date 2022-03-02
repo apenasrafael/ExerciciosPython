@@ -15,6 +15,6 @@ for i in range(int(input())):
         else:
             dic[size] += [palavra]
 
-    for i in sorted(dic.keys())[::-1]:
+    for i in sorted(dic.keys(), reverse=True):
         aux += ' '.join(dic[i]) + ' '
     print(aux[:-1])
